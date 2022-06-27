@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.wrapper {
+  border: 0.1rem;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonDeposit {
+  width: 15rem;
+  height: 3rem;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: white;
+  background-color: coral;
+  border-radius: 5%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
+  font-size: 1.6rem;
+}
+
+.buttonWithdraw {
+  width: 15rem;
+  height: 3rem;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: white;
+  background-color: royalblue;
+  border-radius: 5%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
+  font-size: 1.6rem;
+}
+
+.buttonBankrupt {
+  width: 15rem;
+  height: 3rem;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: white;
+  background-color: green;
+  border-radius: 5%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
+  font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    margin-top: 8rem;
+  }
+}
